@@ -7,7 +7,7 @@ import {
 
 const Header = () => {
   return (
-    <header className="bg-red-600 flex justify-between p-6">
+    <header className="bg-red-600 flex justify-between p-6 border-b border-black">
       <nav className="flex justify-around gap-6">
         <a href="#" className="border-b-2 border-black">
           MUJER

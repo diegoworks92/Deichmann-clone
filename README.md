@@ -1,8 +1,25 @@
-# React + Vite
+# Clon de la página de Deichmann
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un clon de la página de Deichmann, creado con React y Tailwind CSS.
 
-Currently, two official plugins are available:
+## Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Tailwind CSS
+
+## Instalación
+
+Para instalar y ejecutar este proyecto, sigue estos pasos:
+
+1. Clona el repositorio en tu máquina local.
+2. Navega hasta el directorio del proyecto.
+3. Instala las dependencias con `npm install`.
+4. Inicia el servidor de desarrollo con `npm start`.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request con tus cambios.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
