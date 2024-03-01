@@ -7,8 +7,8 @@ import {
 
 const Header = () => {
   return (
-    <header className="bg-red-600 flex justify-between p-6 border-b border-black">
-      <nav className="flex justify-around gap-6">
+    <header className=" flex justify-between py-6 border-b border-[#E4EBED]">
+      <nav className="flex justify-around gap-6 mx-[300px]">
         <a href="#" className="border-b-2 border-black">
           MUJER
         </a>
@@ -23,10 +23,10 @@ const Header = () => {
       <img
         src="./img/logo-deichmann.png"
         alt="logo deichmann"
-        className="w-64"
+        className="w-64 cursor-pointer"
       />
-      <nav className="flex justify-around gap-5 text-2xl">
-        <div className="flex gap-2">
+      <nav className="flex justify-around gap-6 text-2xl mx-[300px]">
+        <div className="flex gap-2 cursor-pointer">
           <img
             src="./img/spain-flag.svg"
             alt="spain flag"

@@ -8,7 +8,7 @@ import { RiMapPin2Line } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <>
+    <div className="mx-[300px]">
       <header className="bg-[#F7F8F8] text-center p-28">
         <h3 className="font-bold text-xl mb-6">
           Tradición, experiencia y calidad: DEICHMANN
@@ -120,7 +120,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-    </>
+    </div>
   );
 };
 

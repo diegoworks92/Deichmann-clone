@@ -1,12 +1,12 @@
 import { RiSearchLine, RiCloseCircleLine } from "react-icons/ri";
 const Navbar = () => {
   return (
-    <header className="bg-blue-600 flex justify-between items-center p-6 border-b border-black text-sm">
-      <nav className="flex justify-around gap-6">
+    <header className="flex justify-between items-center py-2 border-b border-[#E4EBED] text-sm">
+      <nav className="flex justify-around gap-6 mx-[300px]">
         <a href="#" className="">
           Zapatos
         </a>
-        <a href="#" className="">
+        <a href="#" className="flex whitespace-nowrap">
           Precios reducidos %
         </a>
         <a href="#" className="">
@@ -22,16 +22,16 @@ const Navbar = () => {
           Marcas
         </a>
       </nav>
-      <form className="relative flex " onSubmit="">
-        <RiSearchLine className="absolute ml-3 mt-2" />
+      <form className="relative flex mx-[300px]" onSubmit="">
+        <RiSearchLine className="absolute ml-5 mt-[10px] text-[#818788] text-lg" />
         <input
           type="search"
-          className="pl-10 bg-[#F7F8F8] h-8" // Añade padding a la izquierda para evitar que el texto se superponga con el icono
+          className="pl-14 bg-[#F7F8F8] h-10 w-80 text-base"
           value=""
           onChange=""
           placeholder="Buscar"
         />
-        <RiCloseCircleLine className="absolute right-0 mr-2 mt-2" />
+        <RiCloseCircleLine className="absolute right-0 mr-2 mt-2 text-2xl text-[#818788]" />
       </form>
     </header>
   );
