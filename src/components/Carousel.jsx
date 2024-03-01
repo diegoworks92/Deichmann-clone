@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { shoesOne } from "./data";
-const Carousel = () => {
+
+const Carousel = ({ shoes, titulo, clase }) => {
   const scrollRef = useRef(null);
   const [disablePrev, setDisablePrev] = useState(true);
   const [disableNext, setDisableNext] = useState(false);
@@ -47,7 +47,7 @@ const Carousel = () => {
     };
   }, []);
 
-  const items = shoesOne.map((shoe) => (
+  const items = shoes.map((shoe) => (
     <li
       key={shoe.id}
       className="cursor-pointer w-48 h-full flex-shrink-0 flex flex-col items-center border border-[#E4EBED] rounded"
@@ -55,13 +55,13 @@ const Carousel = () => {
       <div className="bg-[#F6F6F6] w-full h-36 flex justify-center items-center">
         <img className=" w-44 h-32" src={shoe.img} alt="" />
       </div>
-      <p className="text-center m-auto mx-2 my-1 h-12">{shoe.name}</p>
+      <p className={`text-center m-auto mx-2 my-1 ${clase}`}>{shoe.name}</p>
     </li>
   ));
 
   return (
     <div className="relative w-full">
-      <h4 className="text-2xl font-semibold mb-4">No te puedes perder</h4>
+      <h4 className="text-2xl font-semibold mb-4">{titulo}</h4>
       {!disablePrev && (
         <button
           onClick={handlePrev}
@@ -75,7 +75,7 @@ const Carousel = () => {
         className="overflow-x-scroll hide-scrollbar"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
-        <ul className="flex gap-4">{items}</ul>
+        <ul className="flex gap-4 mb-10">{items}</ul>
       </div>
       {!disableNext && (
         <button

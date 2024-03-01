@@ -1,5 +1,6 @@
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 import Carousel from "./Carousel";
+import { shoesOne, shoesTwo, shoesThree } from "./data";
 const Main = () => {
   return (
     <div className="mx-[300px]">
@@ -50,9 +51,11 @@ const Main = () => {
         </div>
       </div>
 
-      <Carousel />
+      <Carousel shoes={shoesOne} titulo="No te puedes perder" clase="h-12" />
+      <Carousel shoes={shoesTwo} titulo="¿Qué quieres comprar?" />
+      <Carousel shoes={shoesThree} titulo="Más novedades" clase="h-12" />
 
-      <div className="relative mt-10 cursor-pointer bg-[#0D0D0D] w-full h-[464px]">
+      <div className="relative cursor-pointer bg-[#0D0D0D] w-full h-[464px]">
         <div className="absolute h-[416px] m-6 w-[800px] top-0 left-[420px] flex items-center flex-col justify-center text-white">
           <p className="text-6xl -mb-16">Las mejores marcas desde</p>
           <p id="price" className="font-bold">
