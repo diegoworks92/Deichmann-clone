@@ -7,7 +7,9 @@ function App() {
   return (
     <>
       <Header />
+      <div className="w-full h-[1px] bg-[#E4EBED]"></div>
       <Navbar />
+      <div className="w-full h-[1px] bg-[#E4EBED]"></div>
       <Main />
       <Footer />
     </>

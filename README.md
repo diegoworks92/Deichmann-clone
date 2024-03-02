@@ -23,3 +23,7 @@ Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull r
 ## Licencia
 
 Este proyecto está bajo la licencia MIT.
+
+## :computer: Desktop View
+
+![deichmann](https://github.com/diegoworks92/Deichmann-clone/assets/155651264/10aecf10-409a-44c7-b417-98a1854b29c4)

@@ -50,17 +50,21 @@ const Carousel = ({ shoes, titulo, clase }) => {
   const items = shoes.map((shoe) => (
     <li
       key={shoe.id}
-      className="cursor-pointer w-48 h-full flex-shrink-0 flex flex-col items-center border border-[#E4EBED] rounded"
+      className="cursor-pointer w-[150px] lg:w-48 h-40 lg:h-full flex-shrink-0 flex flex-col items-center border border-[#E4EBED] rounded"
     >
       <div className="bg-[#F6F6F6] w-full h-36 flex justify-center items-center">
-        <img className=" w-44 h-32" src={shoe.img} alt="" />
+        <img
+          className="w-full lg:w-44 h-full lg:h-32 lg:object-cover"
+          src={shoe.img}
+          alt=""
+        />
       </div>
       <p className={`text-center m-auto mx-2 my-1 ${clase}`}>{shoe.name}</p>
     </li>
   ));
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full mx-6 2xl:mx-0">
       <h4 className="text-2xl font-semibold mb-4">{titulo}</h4>
       {!disablePrev && (
         <button
