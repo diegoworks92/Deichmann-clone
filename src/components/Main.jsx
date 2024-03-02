@@ -1,18 +1,18 @@
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 import Carousel from "./Carousel";
-import { shoesOne, shoesTwo, shoesThree } from "./data";
+import { shoesOne, shoesTwo, shoesThree, info } from "./data";
 const Main = () => {
   return (
     <div className="flex justify-center items-center min-h-screen">
       <div className="w-full lg:w-[1024px] xl:w-[1280px] h-full">
-        <h2 className="font-bold text-center text-2xl mt-14 mb-10">
+        <h2 className="font-bold text-center text-2xl mt-8 mb-8 lg:mt-14 lg:mb-10">
           ¿Para quién te gustaría comprar?
         </h2>
         <div className="flex flex-col lg:flex-row">
           <div className="relative w-full cursor-pointer">
             <img
               className="w-full lg:hidden object-cover"
-              src="./public/mobileView/entry_women_small.avif"
+              src="./mobileView/entry_women_small.webp"
               alt=""
             />
             <img
@@ -27,7 +27,7 @@ const Main = () => {
           <div className="relative w-full cursor-pointer">
             <img
               className="w-full lg:hidden"
-              src="./public/mobileView/entry_kids_small.avif"
+              src="./mobileView/entry_kids_small.webp"
               alt=""
             />
             <img
@@ -43,7 +43,7 @@ const Main = () => {
           <div className="relative w-full cursor-pointer">
             <img
               className="w-full lg:hidden"
-              src="./public/mobileView/entry_men_small.avif"
+              src="./mobileView/entry_men_small.webp"
               alt=""
             />
             <img
@@ -57,12 +57,11 @@ const Main = () => {
             </span>
           </div>
         </div>
-
         <div>
           <div className="relative mt-10 cursor-pointer">
             <img
               className="w-full  h-full lg:hidden"
-              src="./public/mobileView/route5.avif"
+              src="./mobileView/route5.webp"
               alt=""
             />
             <img
@@ -71,8 +70,8 @@ const Main = () => {
               alt=""
             />
             {/* movil */}
-            <div className="bg-white m-6 w-full lg:hidden flex-col justify-between">
-              <div className="mb-4">
+            <div className=" w-full lg:hidden flex-col justify-between">
+              <div className="mb-4 m-6">
                 <p className="text-4xl text-[#00AA7A]">
                   Queremos que hagas match{" "}
                 </p>
@@ -80,7 +79,7 @@ const Main = () => {
                   con Nike, Adidas y Puma a precios irresistibles
                 </p>
               </div>
-              <span className="underline text-2xl">Ver colección</span>
+              <span className="underline text-2xl ml-6">Ver colección</span>
             </div>
 
             <div className="absolute bg-white p-6 h-[330px] xl:h-[402px] m-6 w-[344px] top-0 hidden lg:flex flex-col justify-between">
@@ -107,7 +106,7 @@ const Main = () => {
               </div>
             </div>
 
-            <div className="bg-white h-[330px] m-6 w-full lg:hidden flex-col justify-between">
+            <div className="h-[330px] m-6 w-full lg:hidden flex-col justify-between">
               <div className="mb-4">
                 <p className="text-4xl text-[#00AA7A]">
                   Zapatillas y ropa deportiva{" "}
@@ -138,22 +137,50 @@ const Main = () => {
             </div>
           </div>
 
-          <div className="flex gap-4 -mt-6 lg:mt-4 mb-6 lg:mb-20 mx-6 2xl:mx-0">
+          <div className="hidden lg:flex gap-4 mt-4 mb-20 2xl:mx-0">
             <img className="w-full" src="./img/experiencia.webp" alt="" />
             <img className="w-full" src="./img/envio.webp" alt="" />
             <img className="w-full" src="./img/entrega.webp" alt="" />
-            <img className="w-full" src="./img/experiencia.webp" alt="" />
+            <img className="w-full" src="./img/devolucion.webp" alt="" />
           </div>
         </div>
 
-        <Carousel shoes={shoesOne} titulo="No te puedes perder" clase="h-12" />
-        <Carousel shoes={shoesTwo} titulo="¿Qué quieres comprar?" />
-        <Carousel shoes={shoesThree} titulo="Más novedades" clase="h-12" />
+        <div className="container mx-auto w-[358px] sm:w-full">
+          <Carousel
+            shoes={info}
+            clase="hidden"
+            contenedor="h-full"
+            ocultar="block lg:hidden"
+            alto="h-full"
+            botones="hidden"
+          />
+
+          <Carousel
+            shoes={shoesOne}
+            titulo="No te puedes perder"
+            clase="h-12"
+            contenedor="h-36"
+            alto="h-40"
+          />
+          <Carousel
+            shoes={shoesTwo}
+            titulo="¿Qué quieres comprar?"
+            contenedor="h-36"
+            alto="h-40"
+          />
+          <Carousel
+            shoes={shoesThree}
+            titulo="Más novedades"
+            clase="h-12"
+            contenedor="h-36"
+            alto="h-40"
+          />
+        </div>
 
         <div className="relative lg:mt-6 cursor-pointer">
           <img
             className="w-full lg:hidden"
-            src="./public/mobileView/women.avif"
+            src="./mobileView/women.webp"
             alt=""
           />
           <img
@@ -163,8 +190,8 @@ const Main = () => {
           />
 
           {/* movil */}
-          <div className="bg-white m-6 w-full lg:hidden flex-col justify-between">
-            <div className="mb-4">
+          <div className="bg-white w-full lg:hidden flex-col justify-between">
+            <div className="mb-4 m-6">
               <p className="text-4xl text-[#00AA7A]">
                 ¡Descuento de bienvenida del 10%!{" "}
               </p>
@@ -172,7 +199,7 @@ const Main = () => {
                 Suscríbete a nuestra newsletter y consigue ventajas exclusivas
               </p>
             </div>
-            <span className="underline text-2xl">Suscribirme ya</span>
+            <span className="underline text-2xl ml-6">Suscribirme ya</span>
           </div>
 
           <div className="absolute bg-white p-6 h-[330px] xl:h-[401px] m-6 w-[344px] top-0 hidden lg:flex flex-col justify-between">
@@ -190,7 +217,6 @@ const Main = () => {
             </div>
           </div>
         </div>
-
         {/* text */}
         <div className="mt-12 lg:mt-6  mb-16 mx-6 2xl:mx-0">
           <h3 className="font-bold text-4xl mb-6">

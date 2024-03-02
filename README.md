@@ -1,11 +1,14 @@
 # Clon de la página de Deichmann
 
-Este proyecto es un clon de la página de Deichmann, creado con React y Tailwind CSS.
+Este proyecto es un clon de la página principal de Deichmann, creado con React y Tailwind CSS.
 
 ## Tecnologías utilizadas
 
 - React
 - Tailwind CSS
+- Javascript
+- CSS
+- HTML
 
 ## Instalación
 
@@ -27,3 +30,7 @@ Este proyecto está bajo la licencia MIT.
 ## :computer: Desktop View
 
 ![deichmann](https://github.com/diegoworks92/Deichmann-clone/assets/155651264/10aecf10-409a-44c7-b417-98a1854b29c4)
+
+## :iphone: Mobile View
+
+![movil](https://github.com/diegoworks92/Deichmann-clone/assets/155651264/23701e2d-9789-4b17-9490-2c0c484d41d9)

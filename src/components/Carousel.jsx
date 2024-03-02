@@ -1,7 +1,15 @@
 import { useRef, useState, useEffect } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-const Carousel = ({ shoes, titulo, clase }) => {
+const Carousel = ({
+  shoes,
+  titulo,
+  clase,
+  contenedor,
+  ocultar,
+  alto,
+  botones,
+}) => {
   const scrollRef = useRef(null);
   const [disablePrev, setDisablePrev] = useState(true);
   const [disableNext, setDisableNext] = useState(false);
@@ -50,9 +58,11 @@ const Carousel = ({ shoes, titulo, clase }) => {
   const items = shoes.map((shoe) => (
     <li
       key={shoe.id}
-      className="cursor-pointer w-[150px] lg:w-48 h-40 lg:h-full flex-shrink-0 flex flex-col items-center border border-[#E4EBED] rounded"
+      className={`cursor-pointer w-[150px] lg:w-48 lg:h-full flex-shrink-0 flex flex-col items-center border border-[#E4EBED] rounded ${alto} mx-auto`}
     >
-      <div className="bg-[#F6F6F6] w-full h-36 flex justify-center items-center">
+      <div
+        className={`bg-[#F6F6F6] w-full flex justify-center items-center ${contenedor}`}
+      >
         <img
           className="w-full lg:w-44 h-full lg:h-32 lg:object-cover"
           src={shoe.img}
@@ -64,31 +74,35 @@ const Carousel = ({ shoes, titulo, clase }) => {
   ));
 
   return (
-    <div className="relative w-full mx-6 2xl:mx-0">
-      <h4 className="text-2xl font-semibold mb-4">{titulo}</h4>
-      {!disablePrev && (
-        <button
-          onClick={handlePrev}
-          className="absolute top-1/2 left-6 z-10 bg-white p-3 rounded-full text-lg"
-        >
-          <IoIosArrowBack />
-        </button>
-      )}
+    <div className="flex justify-center">
       <div
-        ref={scrollRef}
-        className="overflow-x-scroll hide-scrollbar"
-        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+        className={`relative w-full mx-6 2xl:mx-0 ${ocultar} overflow-x-hidden`}
       >
-        <ul className="flex gap-4 mb-10">{items}</ul>
-      </div>
-      {!disableNext && (
-        <button
-          onClick={handleNext}
-          className="absolute top-1/2 right-6 z-10 bg-white p-3 rounded-full  text-lg"
+        <h4 className="text-2xl font-semibold mb-4">{titulo}</h4>
+        {!disablePrev && (
+          <button
+            onClick={handlePrev}
+            className={`absolute top-1/2 left-6 z-10 bg-white p-3 rounded-full text-lg ${botones}`}
+          >
+            <IoIosArrowBack />
+          </button>
+        )}
+        <div
+          ref={scrollRef}
+          className="overflow-x-scroll hide-scrollbar"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
-          <IoIosArrowForward />
-        </button>
-      )}
+          <ul className="flex gap-4 mb-10">{items}</ul>
+        </div>
+        {!disableNext && (
+          <button
+            onClick={handleNext}
+            className={`absolute top-1/2 right-6 z-10 bg-white p-3 rounded-full  text-lg ${botones}`}
+          >
+            <IoIosArrowForward />
+          </button>
+        )}
+      </div>
     </div>
   );
 };

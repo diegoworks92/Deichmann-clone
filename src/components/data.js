@@ -34,3 +34,10 @@ export const shoesThree = [
   { id: 12, name: "Botines", img: "./shoes3/12.avif" },
   { id: 13, name: "Sandalias", img: "./shoes3/13.avif" },
 ];
+
+export const info = [
+  { id: 1, name: "", img: "./img/experiencia.webp" },
+  { id: 2, name: "", img: "./img/envio.webp" },
+  { id: 3, name: "", img: "./img/entrega.webp" },
+  { id: 4, name: "", img: "./img/devolucion.webp" },
+];
