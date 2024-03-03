@@ -27,7 +27,7 @@ const Header = () => {
           <img
             className="w-8 lg:hidden cursor-pointer"
             src="./img/favicon.ico"
-            alt=""
+            alt="favicon"
           />
         </div>
         <img

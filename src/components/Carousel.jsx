@@ -66,7 +66,7 @@ const Carousel = ({
         <img
           className="w-full lg:w-44 h-full lg:h-32 lg:object-cover"
           src={shoe.img}
-          alt=""
+          alt="imágenes de zapatos y otros productos"
         />
       </div>
       <p className={`text-center m-auto mx-2 my-1 ${clase}`}>{shoe.name}</p>

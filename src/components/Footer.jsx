@@ -35,18 +35,28 @@ const Footer = () => {
           <div className="flex flex-col lg:items-start">
             <p className="mb-3">Formas de pago</p>
             <div className="flex justify-center">
-              <img src="./img/MasterCard-light_512.webp" alt="" />
-              <img src="./img/Visa-card-light_512.webp" alt="" />
-              <img src="./img/Icon_paypal.webp" alt="" />
+              <img
+                src="./img/MasterCard-light_512.webp"
+                alt="logo de MasterCard"
+              />
+              <img
+                src="./img/Visa-card-light_512.webp"
+                alt="logo de Visa-card"
+              />
+              <img src="./img/Icon_paypal.webp" alt="logo de paypal" />
             </div>
           </div>
           <div className="flex flex-col items-center lg:items-start">
             <p className="mb-3">Envío</p>
-            <img className="w-min" src="./img/Icon_SEUR.webp" alt="" />
+            <img
+              className="w-min"
+              src="./img/Icon_SEUR.webp"
+              alt="logo de SEUR"
+            />
           </div>
           <div className="flex flex-col items-center lg:items-end">
             <p className="mb-3">Premios</p>
-            <img src="./img/Icon_award.webp" alt="" />
+            <img src="./img/Icon_award.webp" alt="imagen de premio" />
           </div>
         </div>
 
@@ -123,12 +133,12 @@ const Footer = () => {
               <img
                 className="cursor-pointer"
                 src="./img/instagram.webp"
-                alt=""
+                alt="logo de instagram"
               />
               <img
                 className="cursor-pointer"
                 src="./img/facebook.webp"
-                alt=""
+                alt="logo de facebook"
               />
             </div>
           </div>

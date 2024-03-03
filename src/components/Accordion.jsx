@@ -92,7 +92,7 @@ export const AccordionComponent = () => {
           </Accordion.Icon>
         </Accordion.Container>
         <Accordion.Content>
-          <img src="./img/mag1.webp" alt="" />
+          <img src="./img/mag1.webp" alt="logo de Shoelove" />
         </Accordion.Content>
       </Accordion.Panel>
 
@@ -123,8 +123,16 @@ export const AccordionComponent = () => {
         </Accordion.Container>
         <Accordion.Content>
           <div className="flex gap-2">
-            <img className="cursor-pointer" src="./img/instagram.webp" alt="" />
-            <img className="cursor-pointer" src="./img/facebook.webp" alt="" />
+            <img
+              className="cursor-pointer"
+              src="./img/instagram.webp"
+              alt="logo de instagram"
+            />
+            <img
+              className="cursor-pointer"
+              src="./img/facebook.webp"
+              alt="logo de facebook"
+            />
           </div>
         </Accordion.Content>
       </Accordion.Panel>

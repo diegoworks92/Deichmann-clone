@@ -13,12 +13,12 @@ const Main = () => {
             <img
               className="w-full lg:hidden object-cover"
               src="./mobileView/entry_women_small.webp"
-              alt=""
+              alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full"
               src="./img/entry_women.webp"
-              alt=""
+              alt="imagen de modelos"
             />
             <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-white">
               Mujer
@@ -28,12 +28,12 @@ const Main = () => {
             <img
               className="w-full lg:hidden"
               src="./mobileView/entry_kids_small.webp"
-              alt=""
+              alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full"
               src="./img/entry_kids.webp"
-              alt=""
+              alt="imagen de modelos"
             />
 
             <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-white">
@@ -44,12 +44,12 @@ const Main = () => {
             <img
               className="w-full lg:hidden"
               src="./mobileView/entry_men_small.webp"
-              alt=""
+              alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full"
               src="./img/entry_men.webp"
-              alt=""
+              alt="imagen de modelos"
             />
 
             <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-white">
@@ -62,12 +62,12 @@ const Main = () => {
             <img
               className="w-full  h-full lg:hidden"
               src="./mobileView/route5.webp"
-              alt=""
+              alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full h-full"
               src="./img/format_individual.webp"
-              alt=""
+              alt="imagen de modelos"
             />
             {/* movil */}
             <div className=" w-full lg:hidden flex-col justify-between">
@@ -138,10 +138,26 @@ const Main = () => {
           </div>
 
           <div className="hidden lg:flex gap-4 mt-4 mb-20 2xl:mx-0">
-            <img className="w-full" src="./img/experiencia.webp" alt="" />
-            <img className="w-full" src="./img/envio.webp" alt="" />
-            <img className="w-full" src="./img/entrega.webp" alt="" />
-            <img className="w-full" src="./img/devolucion.webp" alt="" />
+            <img
+              className="w-full"
+              src="./img/experiencia.webp"
+              alt="nueva experiencia de compra"
+            />
+            <img
+              className="w-full"
+              src="./img/envio.webp"
+              alt="Envío gratuito en pedidos superiores a 40€"
+            />
+            <img
+              className="w-full"
+              src="./img/entrega.webp"
+              alt="Entrega a domicilio con SEUR"
+            />
+            <img
+              className="w-full"
+              src="./img/devolucion.webp"
+              alt="Devolución gratuita en tiendas"
+            />
           </div>
         </div>
 
@@ -181,12 +197,12 @@ const Main = () => {
           <img
             className="w-full lg:hidden"
             src="./mobileView/women.webp"
-            alt=""
+            alt="imagen de modelos"
           />
           <img
             className="hidden lg:block w-full"
             src="./img/gender-entry-women.webp"
-            alt=""
+            alt="imagen de modelos"
           />
 
           {/* movil */}
