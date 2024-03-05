@@ -1,6 +1,8 @@
-# Clon de la página de Deichmann
+# Clon web de una tienda de calzado.
 
-Este proyecto es un clon de la página principal de Deichmann, creado con React y Tailwind CSS.
+Este proyecto es un clon de la página principal de una tienda de calzado y complementos, creado con React y Tailwind CSS.
+
+**Aclaración**: Este sitio web es un proyecto de demostración creado con fines educativos y de portafolio. No tiene fines comerciales ni está asociado con ninguna marca o empresa. El diseño del sitio se ha replicado para demostrar habilidades de desarrollo web y no pretende infringir los derechos de autor o de marca del sitio web original. Todos los logotipos, imágenes y textos son ficticios y no deben ser utilizados para otros fines.
 
 ## Tecnologías utilizadas
 
@@ -29,8 +31,8 @@ Este proyecto está bajo la licencia MIT.
 
 ## :computer: Desktop View
 
-![deichmann](https://github.com/diegoworks92/Deichmann-clone/assets/155651264/10aecf10-409a-44c7-b417-98a1854b29c4)
+![desktop](https://github.com/diegoworks92/Footwear-web-clone/assets/155651264/659fb7c3-6aaf-4c84-835b-144904d966c8)
 
 ## :iphone: Mobile View
 
-![movil](https://github.com/diegoworks92/Deichmann-clone/assets/155651264/23701e2d-9789-4b17-9490-2c0c484d41d9)
+![mobile](https://github.com/diegoworks92/Footwear-web-clone/assets/155651264/47f6543a-6fcb-4cb3-8761-de5dd6dcfc88)

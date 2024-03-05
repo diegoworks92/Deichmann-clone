@@ -12,47 +12,47 @@ const Main = () => {
           <div className="relative w-full cursor-pointer">
             <img
               className="w-full lg:hidden object-cover"
-              src="./mobileView/entry_women_small.webp"
+              src="./mobileView/mujer-movil.webp"
               alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full"
-              src="./img/entry_women.webp"
+              src="./mainImages/mujer.webp"
               alt="imagen de modelos"
             />
-            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-white">
+            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-[#267550] lg:text-white">
               Mujer
             </span>
           </div>
           <div className="relative w-full cursor-pointer">
             <img
               className="w-full lg:hidden"
-              src="./mobileView/entry_kids_small.webp"
+              src="./mobileView/niña-movil.webp"
               alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full"
-              src="./img/entry_kids.webp"
+              src="./mainImages/niña.webp"
               alt="imagen de modelos"
             />
 
-            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-white">
+            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-[#267550] lg:text-white">
               Niños
             </span>
           </div>
           <div className="relative w-full cursor-pointer">
             <img
               className="w-full lg:hidden"
-              src="./mobileView/entry_men_small.webp"
+              src="./mobileView/hombre-movil.webp"
               alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full"
-              src="./img/entry_men.webp"
+              src="./mainImages/hombre.webp"
               alt="imagen de modelos"
             />
 
-            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-white">
+            <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold text-5xl text-[#267550] lg:text-white">
               Hombre
             </span>
           </div>
@@ -61,12 +61,12 @@ const Main = () => {
           <div className="relative mt-10 cursor-pointer">
             <img
               className="w-full  h-full lg:hidden"
-              src="./mobileView/route5.webp"
+              src="./mobileView/mujer-zapatos-movil.webp"
               alt="imagen de modelos"
             />
             <img
               className="hidden lg:block w-full h-full"
-              src="./img/format_individual.webp"
+              src="./mainImages/mujer-zapatos.webp"
               alt="imagen de modelos"
             />
             {/* movil */}
@@ -196,12 +196,12 @@ const Main = () => {
         <div className="relative lg:mt-6 cursor-pointer">
           <img
             className="w-full lg:hidden"
-            src="./mobileView/women.webp"
+            src="./mobileView/mujer-horizontal-movil.webp"
             alt="imagen de modelos"
           />
           <img
             className="hidden lg:block w-full"
-            src="./img/gender-entry-women.webp"
+            src="./mainImages/mujer-horizontal.webp"
             alt="imagen de modelos"
           />
 
@@ -236,13 +236,13 @@ const Main = () => {
         {/* text */}
         <div className="mt-12 lg:mt-6  mb-16 mx-6 2xl:mx-0">
           <h3 className="font-bold text-4xl mb-6">
-            Tienda online de calzado DEICHMANN | Compra zapatos online
+            Tienda online de calzado HEICHMANN | Compra zapatos online
           </h3>
           <p>
-            Encuentra lo último en calzado online en DEICHMANN. En nuestra
+            Encuentra lo último en calzado online en HEICHMANN. En nuestra
             tienda de zapatos online conseguirás el tipo de calzado que
             necesitas para cada momento. Diseño actual, buena calidad y los
-            mejores precios. DEICHMANN tiene un claro compromiso con la calidad,
+            mejores precios. HEICHMANN tiene un claro compromiso con la calidad,
             por eso la amplia variedad de zapatos de nuestra tienda online es tu
             mejor apuesta. Comprar zapatos para toda la familia en el mismo
             sitio nunca había sido tan fácil, tenemos zapatos de mujer, zapatos
@@ -252,20 +252,20 @@ const Main = () => {
             ¿Buscas calzado de mujer de última tendencia?{" "}
           </h4>
           <p>
-            En la zapateria online DEICHMANN tenemos los diseños más actuales
+            En la zapateria online HEICHMANN tenemos los diseños más actuales
             para que puedas completar todos tus looks. Encuentra sandalias,
             bailarinas, cuñas, botas, botines, zapatos de tacón y zapatillas de
             casa. Los hombres también tienen su espacio en nuestra tienda online
             de zapatos. Para ellos tenemos una gran selección de zapatos casual,
             calzado elegante para las ocasiones especiales, modernos slippers y
-            sneakers. En DEICHMANN puedes conseguir también calzado para los más
+            sneakers. En HEICHMANN puedes conseguir también calzado para los más
             pequeños de la casa. Sandalias, zapatos de vestir, zapatos con
             velcro para que puedan abrochárselos solitos, deportivas y zapatos
             para sus primeros pasos.
           </p>
           <h4 className="font-bold text-xl my-6">
             Un buen calzado es lo más importante para el día a día y en
-            DEICHMANN lo sabemos.
+            HEICHMANN lo sabemos.
           </h4>
           <p>
             Por eso te ofrecemos una gran variedad de zapatos para toda la

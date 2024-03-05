@@ -26,14 +26,14 @@ const Header = () => {
           <IoReorderThree className="lg:hidden text-3xl cursor-pointer" />
           <img
             className="w-8 lg:hidden cursor-pointer"
-            src="./img/favicon.ico"
+            src="./img/h.ico"
             alt="favicon"
           />
         </div>
         <img
           className="hidden lg:block w-64 cursor-pointer mr-28"
-          src="./img/logo-deichmann.png"
-          alt="logo deichmann"
+          src="./img/titulo.webp"
+          alt="logo heichmann"
         />
 
         <nav className="flex justify-around gap-6 text-2xl">

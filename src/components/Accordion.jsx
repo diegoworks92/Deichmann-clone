@@ -24,7 +24,7 @@ export const AccordionComponent = () => {
               <MdOutlineHeadsetMic /> 900 878 158
             </li>
             <li className="cursor-pointer flex items-center gap-1">
-              <CiMail /> onlineshop-es@deichmann.com
+              <CiMail /> onlineshop-es@heichmann.com
             </li>
             <li className="cursor-pointer flex items-center gap-1">
               <FaFacebookF /> Síguenos

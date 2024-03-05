@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="w-[1280px]">
         <header className="bg-[#F7F8F8] text-center p-20 lg:p-20">
           <h3 className="font-bold text-xl mb-6">
-            Tradición, experiencia y calidad: DEICHMANN
+            Tradición, experiencia y calidad: HEICHMANN
           </h3>
           <div className="flex flex-col lg:flex-row justify-center gap-4 ">
             <p className="lg:border-r-2 border-[#E4EBED] py-4 pr-4 flex">
@@ -73,7 +73,7 @@ const Footer = () => {
                 <MdOutlineHeadsetMic /> 900 878 158
               </li>
               <li className="cursor-pointer flex items-center gap-1">
-                <CiMail /> onlineshop-es@deichmann.com
+                <CiMail /> onlineshop-es@heichmann.com
               </li>
               <li className="cursor-pointer flex items-center gap-1">
                 <FaFacebookF /> Síguenos
@@ -113,7 +113,7 @@ const Footer = () => {
           {/*    Blog */}
           <div className="text-start cursor-pointer">
             <h4 className="text-lg font-bold mb-6">Blog</h4>
-            <img src="./img/mag1.webp" alt="" />
+            <img src="./img/shoePassion.webp" alt="logo shoe passion" />
           </div>
           {/* Información jurídica */}
           <div className="text-start">
