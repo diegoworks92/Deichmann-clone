@@ -34,29 +34,39 @@ const Footer = () => {
         <div className="text-center flex flex-col lg:flex-row justify-center font-bold lg:gap-20 m-10">
           <div className="flex flex-col lg:items-start">
             <p className="mb-3">Formas de pago</p>
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-2">
               <img
-                src="./img/MasterCard-light_512.webp"
+                src="./img/mc.svg"
                 alt="logo de MasterCard"
+                className="w-12 h-auto -mt-3"
               />
               <img
-                src="./img/Visa-card-light_512.webp"
+                src="./img/visa.svg"
                 alt="logo de Visa-card"
+                className="w-12 h-auto -mt-1"
               />
-              <img src="./img/Icon_paypal.webp" alt="logo de paypal" />
+              <img
+                src="./img/paypal.svg"
+                alt="logo de paypal"
+                className="w-14 h-auto "
+              />
             </div>
           </div>
           <div className="flex flex-col items-center lg:items-start">
             <p className="mb-3">Envío</p>
             <img
-              className="w-min"
-              src="./img/Icon_SEUR.webp"
+              src="./img/seur.svg"
               alt="logo de SEUR"
+              className="w-20 h-auto lg:mt-5 mb-5 lg:mb-0"
             />
           </div>
           <div className="flex flex-col items-center lg:items-end">
-            <p className="mb-3">Premios</p>
-            <img src="./img/Icon_award.webp" alt="imagen de premio" />
+            <p className="mb-6 lg:mb-3">Premios</p>
+            <img
+              src="./img/premio.svg"
+              alt="imagen de premio"
+              className="w-10 h-auto -mt-2"
+            />
           </div>
         </div>
 

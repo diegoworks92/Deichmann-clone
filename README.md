@@ -31,8 +31,8 @@ Este proyecto está bajo la licencia MIT.
 
 ## :computer: Desktop View
 
-![desktop](https://github.com/diegoworks92/Footwear-web-clone/assets/155651264/659fb7c3-6aaf-4c84-835b-144904d966c8)
+![desktop](https://github.com/diegoworks92/Footwear-web-clone/assets/155651264/0c757bea-2c63-4ab7-aaa8-71efe4d7e366)
 
 ## :iphone: Mobile View
 
-![mobile](https://github.com/diegoworks92/Footwear-web-clone/assets/155651264/47f6543a-6fcb-4cb3-8761-de5dd6dcfc88)
+![mobile](https://github.com/diegoworks92/Footwear-web-clone/assets/155651264/5f17bb87-7d71-4a8a-8b60-d3d057bfa62b)
